@@ -1,6 +1,5 @@
 - id: cargo-sort
-  name: Check Cargo.toml is sorted
-  description: 'Ensure Cargo.toml is sorted'
+  name: Ensure Cargo.toml is sorted
   entry: cargo-sort
   language: rust
   types: [file, toml]
@@ -8,8 +7,7 @@
   pass_filenames: false
 
 - id: cargo-sort-workspace-grouped
-  name: Check Cargo.toml is sorted
-  description: 'Ensure Cargo.toml is sorted'
+  name: Ensure Cargo.toml is sorted
   entry: cargo-sort --workspace --groups
   language: rust
   types: [file, toml]
