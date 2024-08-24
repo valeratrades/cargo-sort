@@ -7,7 +7,7 @@
   files: Cargo\.toml
   pass_filenames: false
 
-- id: cargo-sort-workspace-groups
+- id: cargo-sort-workspace-grouped
   name: Check Cargo.toml is sorted
   description: 'Ensure Cargo.toml is sorted'
   entry: cargo-sort --workspace --groups
