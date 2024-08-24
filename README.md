@@ -84,10 +84,10 @@ adding the following entry to your `.pre-commit-config.yaml` configuration:
 
 ```yaml
 repos:
-- repo: https://github.com/DevinR528/cargo-sort
+- repo: https://github.com/valeratrades/cargo-sort
   rev: v1.0.4
   hooks:
-  - id: cargo-sort
+  - id: cargo-sort-workspaces-groups
 ```
 
 Please make sure to set `rev` to the latest tag of this repo as the tag shown here might not always
