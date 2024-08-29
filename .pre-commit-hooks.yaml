@@ -8,7 +8,7 @@
 
 - id: cargo-sort-workspace-grouped
   name: Ensure Cargo.toml is sorted
-  entry: cargo-sort --workspace --groups
+  entry: cargo-sort --workspace --grouped
   language: rust
   types: [file, toml]
   files: Cargo\.toml
